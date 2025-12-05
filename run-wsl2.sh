@@ -8,10 +8,6 @@ docker run -it --rm \
   -e DISPLAY \
   -e WAYLAND_DISPLAY \
   -e XDG_RUNTIME_DIR \
-<<<<<<< HEAD
-  -v ./src:/student_src \
-=======
   -v ./src:/ros_ws/src/student_src \
->>>>>>> template/main
   --privileged \
   ${dirname}
