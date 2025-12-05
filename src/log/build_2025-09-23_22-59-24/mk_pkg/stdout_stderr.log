@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating mk_pkg.egg-info
+writing mk_pkg.egg-info/PKG-INFO
+writing dependency_links to mk_pkg.egg-info/dependency_links.txt
+writing requirements to mk_pkg.egg-info/requires.txt
+writing top-level names to mk_pkg.egg-info/top_level.txt
+writing manifest file 'mk_pkg.egg-info/SOURCES.txt'
+reading manifest file 'mk_pkg.egg-info/SOURCES.txt'
+writing manifest file 'mk_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk-pkg.egg-link (link to .)
+
+Installed /ros_ws/src/student_src/build/mk_pkg
+running symlink_data
+creating /ros_ws/src/student_src/install/mk_pkg/share/ament_index
+creating /ros_ws/src/student_src/install/mk_pkg/share/ament_index/resource_index
+creating /ros_ws/src/student_src/install/mk_pkg/share/ament_index/resource_index/packages
+symbolically linking /ros_ws/src/student_src/build/mk_pkg/resource/mk_pkg -> /ros_ws/src/student_src/install/mk_pkg/share/ament_index/resource_index/packages
+symbolically linking /ros_ws/src/student_src/build/mk_pkg/package.xml -> /ros_ws/src/student_src/install/mk_pkg/share/mk_pkg

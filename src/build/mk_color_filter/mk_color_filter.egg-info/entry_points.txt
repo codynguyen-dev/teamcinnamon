@@ -1,0 +1,3 @@
+[console_scripts]
+color_filter_node = mk_color_filter.mk_color_filter:main
+measurement_data = mk_color_filter.measurement_data:main

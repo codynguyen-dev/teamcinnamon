@@ -1,0 +1,2 @@
+[console_scripts]
+mk_odom = mk_odometry.odom_main:main

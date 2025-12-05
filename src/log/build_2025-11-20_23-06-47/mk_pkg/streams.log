@@ -1,0 +1,28 @@
+[1.706s] Invoking command in '/ros_ws/src/student_src/build/mk_pkg': PYTHONPATH=/ros_ws/src/student_src/build/mk_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/src/student_src/build/mk_pkg/build --no-deps symlink_data --force
+[2.065s] running develop
+[2.184s] running egg_info
+[2.195s] writing mk_pkg.egg-info/PKG-INFO
+[2.196s] writing dependency_links to mk_pkg.egg-info/dependency_links.txt
+[2.197s] writing entry points to mk_pkg.egg-info/entry_points.txt
+[2.198s] writing requirements to mk_pkg.egg-info/requires.txt
+[2.198s] writing top-level names to mk_pkg.egg-info/top_level.txt
+[2.229s] reading manifest file 'mk_pkg.egg-info/SOURCES.txt'
+[2.235s] writing manifest file 'mk_pkg.egg-info/SOURCES.txt'
+[2.249s] running build_ext
+[2.250s] Creating /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk-pkg.egg-link (link to .)
+[2.251s] Installing distance script to /ros_ws/src/student_src/install/mk_pkg/lib/mk_pkg
+[2.254s] Installing lab1_4 script to /ros_ws/src/student_src/install/mk_pkg/lib/mk_pkg
+[2.255s] Installing mk_estop_reset script to /ros_ws/src/student_src/install/mk_pkg/lib/mk_pkg
+[2.257s] Installing mk_fsm_mode script to /ros_ws/src/student_src/install/mk_pkg/lib/mk_pkg
+[2.258s] Installing mk_mode_select script to /ros_ws/src/student_src/install/mk_pkg/lib/mk_pkg
+[2.259s] Installing moveturtle script to /ros_ws/src/student_src/install/mk_pkg/lib/mk_pkg
+[2.260s] 
+[2.261s] Installed /ros_ws/src/student_src/build/mk_pkg
+[2.261s] running symlink_data
+[2.265s] symbolically linking /ros_ws/src/student_src/build/mk_pkg/resource/mk_pkg -> /ros_ws/src/student_src/install/mk_pkg/share/ament_index/resource_index/packages
+[2.265s] symbolically linking /ros_ws/src/student_src/build/mk_pkg/package.xml -> /ros_ws/src/student_src/install/mk_pkg/share/mk_pkg
+[2.265s] symbolically linking /ros_ws/src/student_src/build/mk_pkg/launch/mvturtle_launch.py -> /ros_ws/src/student_src/install/mk_pkg/share/mk_pkg
+[2.266s] symbolically linking /ros_ws/src/student_src/build/mk_pkg/launch/launch_distance.py -> /ros_ws/src/student_src/install/mk_pkg/share/mk_pkg
+[2.267s] symbolically linking /ros_ws/src/student_src/build/mk_pkg/launch/converter_launch.py -> /ros_ws/src/student_src/install/mk_pkg/share/mk_pkg
+[2.267s] symbolically linking /ros_ws/src/student_src/build/mk_pkg/launch/mk_mode_select_launch.py -> /ros_ws/src/student_src/install/mk_pkg/share/mk_pkg
+[2.311s] Invoked command in '/ros_ws/src/student_src/build/mk_pkg' returned '0': PYTHONPATH=/ros_ws/src/student_src/build/mk_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/src/student_src/build/mk_pkg/build --no-deps symlink_data --force

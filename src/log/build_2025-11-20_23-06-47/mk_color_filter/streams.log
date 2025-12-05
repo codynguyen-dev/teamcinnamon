@@ -1,0 +1,21 @@
+[1.730s] Invoking command in '/ros_ws/src/student_src/build/mk_color_filter': PYTHONPATH=/ros_ws/src/student_src/build/mk_color_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_color_filter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/src/student_src/build/mk_color_filter/build --no-deps symlink_data --force
+[2.084s] running develop
+[2.201s] running egg_info
+[2.213s] writing mk_color_filter.egg-info/PKG-INFO
+[2.214s] writing dependency_links to mk_color_filter.egg-info/dependency_links.txt
+[2.215s] writing entry points to mk_color_filter.egg-info/entry_points.txt
+[2.217s] writing requirements to mk_color_filter.egg-info/requires.txt
+[2.219s] writing top-level names to mk_color_filter.egg-info/top_level.txt
+[2.243s] reading manifest file 'mk_color_filter.egg-info/SOURCES.txt'
+[2.249s] writing manifest file 'mk_color_filter.egg-info/SOURCES.txt'
+[2.262s] running build_ext
+[2.263s] Creating /ros_ws/src/student_src/install/mk_color_filter/lib/python3.12/site-packages/mk-color-filter.egg-link (link to .)
+[2.265s] Installing color_filter_node script to /ros_ws/src/student_src/install/mk_color_filter/lib/mk_color_filter
+[2.267s] Installing measurement_data script to /ros_ws/src/student_src/install/mk_color_filter/lib/mk_color_filter
+[2.269s] 
+[2.270s] Installed /ros_ws/src/student_src/build/mk_color_filter
+[2.270s] running symlink_data
+[2.271s] symbolically linking /ros_ws/src/student_src/build/mk_color_filter/resource/mk_color_filter -> /ros_ws/src/student_src/install/mk_color_filter/share/ament_index/resource_index/packages
+[2.273s] symbolically linking /ros_ws/src/student_src/build/mk_color_filter/package.xml -> /ros_ws/src/student_src/install/mk_color_filter/share/mk_color_filter
+[2.273s] symbolically linking /ros_ws/src/student_src/build/mk_color_filter/launch/mk_color_filter_launch.py -> /ros_ws/src/student_src/install/mk_color_filter/share/mk_color_filter
+[2.325s] Invoked command in '/ros_ws/src/student_src/build/mk_color_filter' returned '0': PYTHONPATH=/ros_ws/src/student_src/build/mk_color_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_color_filter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/src/student_src/build/mk_color_filter/build --no-deps symlink_data --force

@@ -1,0 +1,56 @@
+running develop
+Removing /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk-pkg.egg-link (link to .)
+running egg_info
+writing ../build/mk_pkg/mk_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/mk_pkg/mk_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/mk_pkg/mk_pkg.egg-info/entry_points.txt
+writing requirements to ../build/mk_pkg/mk_pkg.egg-info/requires.txt
+writing top-level names to ../build/mk_pkg/mk_pkg.egg-info/top_level.txt
+reading manifest file '../build/mk_pkg/mk_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/mk_pkg/mk_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ros_ws/src/student_src/build/mk_pkg/build
+creating /ros_ws/src/student_src/build/mk_pkg/build/lib
+creating /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg
+copying mk_pkg/lab1_4.py -> /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg
+copying mk_pkg/moveturtle.py -> /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg
+copying mk_pkg/__init__.py -> /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg
+copying mk_pkg/distance.py -> /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg
+copying mk_pkg/mk_fsm_mode.py -> /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg
+copying mk_pkg/mk_mode_select.py -> /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg
+copying mk_pkg/mk_estop_reset.py -> /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg
+running install
+running install_lib
+creating /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg
+copying /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg/lab1_4.py -> /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg
+copying /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg/moveturtle.py -> /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg
+copying /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg/__init__.py -> /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg
+copying /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg/distance.py -> /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg
+copying /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg/mk_fsm_mode.py -> /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg
+copying /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg/mk_mode_select.py -> /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg
+copying /ros_ws/src/student_src/build/mk_pkg/build/lib/mk_pkg/mk_estop_reset.py -> /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg
+byte-compiling /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg/lab1_4.py to lab1_4.cpython-312.pyc
+byte-compiling /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg/moveturtle.py to moveturtle.cpython-312.pyc
+byte-compiling /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg/__init__.py to __init__.cpython-312.pyc
+byte-compiling /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg/distance.py to distance.cpython-312.pyc
+byte-compiling /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg/mk_fsm_mode.py to mk_fsm_mode.cpython-312.pyc
+byte-compiling /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg/mk_mode_select.py to mk_mode_select.cpython-312.pyc
+byte-compiling /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg/mk_estop_reset.py to mk_estop_reset.cpython-312.pyc
+running install_data
+copying resource/mk_pkg -> /ros_ws/src/student_src/install/mk_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /ros_ws/src/student_src/install/mk_pkg/share/mk_pkg
+copying launch/mvturtle_launch.py -> /ros_ws/src/student_src/install/mk_pkg/share/mk_pkg
+copying launch/launch_distance.py -> /ros_ws/src/student_src/install/mk_pkg/share/mk_pkg
+copying launch/converter_launch.py -> /ros_ws/src/student_src/install/mk_pkg/share/mk_pkg
+copying launch/mk_mode_select_launch.py -> /ros_ws/src/student_src/install/mk_pkg/share/mk_pkg
+running install_egg_info
+Copying ../build/mk_pkg/mk_pkg.egg-info to /ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages/mk_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing distance script to /ros_ws/src/student_src/install/mk_pkg/lib/mk_pkg
+Installing lab1_4 script to /ros_ws/src/student_src/install/mk_pkg/lib/mk_pkg
+Installing mk_estop_reset script to /ros_ws/src/student_src/install/mk_pkg/lib/mk_pkg
+Installing mk_fsm_mode script to /ros_ws/src/student_src/install/mk_pkg/lib/mk_pkg
+Installing mk_mode_select script to /ros_ws/src/student_src/install/mk_pkg/lib/mk_pkg
+Installing moveturtle script to /ros_ws/src/student_src/install/mk_pkg/lib/mk_pkg
+writing list of installed files to '/ros_ws/src/student_src/build/mk_pkg/install.log'

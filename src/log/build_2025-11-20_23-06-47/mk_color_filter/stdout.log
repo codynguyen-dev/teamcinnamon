@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing mk_color_filter.egg-info/PKG-INFO
+writing dependency_links to mk_color_filter.egg-info/dependency_links.txt
+writing entry points to mk_color_filter.egg-info/entry_points.txt
+writing requirements to mk_color_filter.egg-info/requires.txt
+writing top-level names to mk_color_filter.egg-info/top_level.txt
+reading manifest file 'mk_color_filter.egg-info/SOURCES.txt'
+writing manifest file 'mk_color_filter.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros_ws/src/student_src/install/mk_color_filter/lib/python3.12/site-packages/mk-color-filter.egg-link (link to .)
+Installing color_filter_node script to /ros_ws/src/student_src/install/mk_color_filter/lib/mk_color_filter
+Installing measurement_data script to /ros_ws/src/student_src/install/mk_color_filter/lib/mk_color_filter
+
+Installed /ros_ws/src/student_src/build/mk_color_filter
+running symlink_data
+symbolically linking /ros_ws/src/student_src/build/mk_color_filter/resource/mk_color_filter -> /ros_ws/src/student_src/install/mk_color_filter/share/ament_index/resource_index/packages
+symbolically linking /ros_ws/src/student_src/build/mk_color_filter/package.xml -> /ros_ws/src/student_src/install/mk_color_filter/share/mk_color_filter
+symbolically linking /ros_ws/src/student_src/build/mk_color_filter/launch/mk_color_filter_launch.py -> /ros_ws/src/student_src/install/mk_color_filter/share/mk_color_filter

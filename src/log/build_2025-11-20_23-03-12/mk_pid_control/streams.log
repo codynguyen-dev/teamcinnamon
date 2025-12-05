@@ -1,0 +1,37 @@
+[1.669s] Invoking command in '/ros_ws/src/student_src/build/mk_pid_control': PYTHONPATH=/ros_ws/src/student_src/build/mk_pid_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /ros_ws/src/student_src/build/mk_pid_control/build
+[2.027s] running develop
+[2.164s] Removing /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk-pid-control.egg-link (link to .)
+[2.196s] Invoked command in '/ros_ws/src/student_src/build/mk_pid_control' returned '0': PYTHONPATH=/ros_ws/src/student_src/build/mk_pid_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /ros_ws/src/student_src/build/mk_pid_control/build
+[2.201s] Invoking command in '/ros_ws/src/student_src/mk_pid_control': PYTHONPATH=/ros_ws/src/student_src/build/mk_pid_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mk_pid_control build --build-base /ros_ws/src/student_src/build/mk_pid_control/build install --record /ros_ws/src/student_src/build/mk_pid_control/install.log --single-version-externally-managed install_data --force
+[2.510s] running egg_info
+[2.522s] writing ../build/mk_pid_control/mk_pid_control.egg-info/PKG-INFO
+[2.523s] writing dependency_links to ../build/mk_pid_control/mk_pid_control.egg-info/dependency_links.txt
+[2.523s] writing entry points to ../build/mk_pid_control/mk_pid_control.egg-info/entry_points.txt
+[2.523s] writing requirements to ../build/mk_pid_control/mk_pid_control.egg-info/requires.txt
+[2.524s] writing top-level names to ../build/mk_pid_control/mk_pid_control.egg-info/top_level.txt
+[2.560s] reading manifest file '../build/mk_pid_control/mk_pid_control.egg-info/SOURCES.txt'
+[2.563s] writing manifest file '../build/mk_pid_control/mk_pid_control.egg-info/SOURCES.txt'
+[2.564s] running build
+[2.565s] running build_py
+[2.566s] creating /ros_ws/src/student_src/build/mk_pid_control/build
+[2.567s] creating /ros_ws/src/student_src/build/mk_pid_control/build/lib
+[2.567s] creating /ros_ws/src/student_src/build/mk_pid_control/build/lib/mk_pid_control
+[2.568s] copying mk_pid_control/mk_pid.py -> /ros_ws/src/student_src/build/mk_pid_control/build/lib/mk_pid_control
+[2.568s] copying mk_pid_control/__init__.py -> /ros_ws/src/student_src/build/mk_pid_control/build/lib/mk_pid_control
+[2.572s] running install
+[2.576s] running install_lib
+[2.595s] creating /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk_pid_control
+[2.596s] copying /ros_ws/src/student_src/build/mk_pid_control/build/lib/mk_pid_control/mk_pid.py -> /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk_pid_control
+[2.597s] copying /ros_ws/src/student_src/build/mk_pid_control/build/lib/mk_pid_control/__init__.py -> /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk_pid_control
+[2.600s] byte-compiling /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk_pid_control/mk_pid.py to mk_pid.cpython-312.pyc
+[2.606s] byte-compiling /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk_pid_control/__init__.py to __init__.cpython-312.pyc
+[2.606s] running install_data
+[2.607s] copying resource/mk_pid_control -> /ros_ws/src/student_src/install/mk_pid_control/share/ament_index/resource_index/packages
+[2.607s] copying package.xml -> /ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control
+[2.607s] copying launch/mk_pid_control_launch.py -> /ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/launch
+[2.610s] running install_egg_info
+[2.629s] Copying ../build/mk_pid_control/mk_pid_control.egg-info to /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk_pid_control-0.0.0-py3.12.egg-info
+[2.640s] running install_scripts
+[2.740s] Installing pid_control script to /ros_ws/src/student_src/install/mk_pid_control/lib/mk_pid_control
+[2.741s] writing list of installed files to '/ros_ws/src/student_src/build/mk_pid_control/install.log'
+[2.784s] Invoked command in '/ros_ws/src/student_src/mk_pid_control' returned '0': PYTHONPATH=/ros_ws/src/student_src/build/mk_pid_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mk_pid_control build --build-base /ros_ws/src/student_src/build/mk_pid_control/build install --record /ros_ws/src/student_src/build/mk_pid_control/install.log --single-version-externally-managed install_data --force

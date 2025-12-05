@@ -1,0 +1,33 @@
+running develop
+Removing /ros_ws/src/student_src/install/mk_odometry/lib/python3.12/site-packages/mk-odometry.egg-link (link to .)
+running egg_info
+writing ../build/mk_odometry/mk_odometry.egg-info/PKG-INFO
+writing dependency_links to ../build/mk_odometry/mk_odometry.egg-info/dependency_links.txt
+writing entry points to ../build/mk_odometry/mk_odometry.egg-info/entry_points.txt
+writing requirements to ../build/mk_odometry/mk_odometry.egg-info/requires.txt
+writing top-level names to ../build/mk_odometry/mk_odometry.egg-info/top_level.txt
+reading manifest file '../build/mk_odometry/mk_odometry.egg-info/SOURCES.txt'
+writing manifest file '../build/mk_odometry/mk_odometry.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ros_ws/src/student_src/build/mk_odometry/build
+creating /ros_ws/src/student_src/build/mk_odometry/build/lib
+creating /ros_ws/src/student_src/build/mk_odometry/build/lib/mk_odometry
+copying mk_odometry/__init__.py -> /ros_ws/src/student_src/build/mk_odometry/build/lib/mk_odometry
+copying mk_odometry/odom_main.py -> /ros_ws/src/student_src/build/mk_odometry/build/lib/mk_odometry
+running install
+running install_lib
+creating /ros_ws/src/student_src/install/mk_odometry/lib/python3.12/site-packages/mk_odometry
+copying /ros_ws/src/student_src/build/mk_odometry/build/lib/mk_odometry/__init__.py -> /ros_ws/src/student_src/install/mk_odometry/lib/python3.12/site-packages/mk_odometry
+copying /ros_ws/src/student_src/build/mk_odometry/build/lib/mk_odometry/odom_main.py -> /ros_ws/src/student_src/install/mk_odometry/lib/python3.12/site-packages/mk_odometry
+byte-compiling /ros_ws/src/student_src/install/mk_odometry/lib/python3.12/site-packages/mk_odometry/__init__.py to __init__.cpython-312.pyc
+byte-compiling /ros_ws/src/student_src/install/mk_odometry/lib/python3.12/site-packages/mk_odometry/odom_main.py to odom_main.cpython-312.pyc
+running install_data
+copying resource/mk_odometry -> /ros_ws/src/student_src/install/mk_odometry/share/ament_index/resource_index/packages
+copying package.xml -> /ros_ws/src/student_src/install/mk_odometry/share/mk_odometry
+copying launch/odom_launch.py -> /ros_ws/src/student_src/install/mk_odometry/share/mk_odometry
+running install_egg_info
+Copying ../build/mk_odometry/mk_odometry.egg-info to /ros_ws/src/student_src/install/mk_odometry/lib/python3.12/site-packages/mk_odometry-0.0.0-py3.12.egg-info
+running install_scripts
+Installing mk_odom script to /ros_ws/src/student_src/install/mk_odometry/lib/mk_odometry
+writing list of installed files to '/ros_ws/src/student_src/build/mk_odometry/install.log'

@@ -1,0 +1,9 @@
+source;share/mk_odometry/hook/pythonpath.ps1
+source;share/mk_odometry/hook/pythonpath.dsv
+source;share/mk_odometry/hook/pythonpath.sh
+source;share/mk_odometry/hook/ament_prefix_path.ps1
+source;share/mk_odometry/hook/ament_prefix_path.dsv
+source;share/mk_odometry/hook/ament_prefix_path.sh
+source;../../build/mk_odometry/share/mk_odometry/hook/pythonpath_develop.ps1
+source;../../build/mk_odometry/share/mk_odometry/hook/pythonpath_develop.dsv
+source;../../build/mk_odometry/share/mk_odometry/hook/pythonpath_develop.sh

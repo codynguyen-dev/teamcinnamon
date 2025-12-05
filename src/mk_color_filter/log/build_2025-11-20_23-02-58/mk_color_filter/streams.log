@@ -1,0 +1,42 @@
+[0.843s] Invoking command in '/ros_ws/src/student_src/mk_color_filter': PYTHONPATH=/ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/mk_color_filter build --build-base /ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/build install --record /ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/install.log --single-version-externally-managed install_data
+[1.166s] running egg_info
+[1.168s] creating build/mk_color_filter/mk_color_filter.egg-info
+[1.178s] writing build/mk_color_filter/mk_color_filter.egg-info/PKG-INFO
+[1.179s] writing dependency_links to build/mk_color_filter/mk_color_filter.egg-info/dependency_links.txt
+[1.180s] writing entry points to build/mk_color_filter/mk_color_filter.egg-info/entry_points.txt
+[1.180s] writing requirements to build/mk_color_filter/mk_color_filter.egg-info/requires.txt
+[1.181s] writing top-level names to build/mk_color_filter/mk_color_filter.egg-info/top_level.txt
+[1.181s] writing manifest file 'build/mk_color_filter/mk_color_filter.egg-info/SOURCES.txt'
+[1.204s] reading manifest file 'build/mk_color_filter/mk_color_filter.egg-info/SOURCES.txt'
+[1.206s] writing manifest file 'build/mk_color_filter/mk_color_filter.egg-info/SOURCES.txt'
+[1.206s] running build
+[1.207s] running build_py
+[1.207s] creating /ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/build
+[1.208s] creating /ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/build/lib
+[1.208s] creating /ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/build/lib/mk_color_filter
+[1.208s] copying mk_color_filter/mk_color_filter.py -> /ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/build/lib/mk_color_filter
+[1.208s] copying mk_color_filter/__init__.py -> /ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/build/lib/mk_color_filter
+[1.209s] copying mk_color_filter/measurement_data.py -> /ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/build/lib/mk_color_filter
+[1.213s] running install
+[1.216s] running install_lib
+[1.228s] creating /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter
+[1.229s] copying /ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/build/lib/mk_color_filter/mk_color_filter.py -> /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter
+[1.230s] copying /ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/build/lib/mk_color_filter/__init__.py -> /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter
+[1.231s] copying /ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/build/lib/mk_color_filter/measurement_data.py -> /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter
+[1.232s] byte-compiling /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter/mk_color_filter.py to mk_color_filter.cpython-312.pyc
+[1.237s] byte-compiling /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter/__init__.py to __init__.cpython-312.pyc
+[1.240s] byte-compiling /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter/measurement_data.py to measurement_data.cpython-312.pyc
+[1.241s] running install_data
+[1.242s] creating /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/share/ament_index
+[1.242s] creating /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/share/ament_index/resource_index
+[1.243s] creating /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/share/ament_index/resource_index/packages
+[1.243s] copying resource/mk_color_filter -> /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/share/ament_index/resource_index/packages
+[1.243s] copying package.xml -> /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/share/mk_color_filter
+[1.244s] copying launch/mk_color_filter_launch.py -> /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/share/mk_color_filter
+[1.247s] running install_egg_info
+[1.258s] Copying build/mk_color_filter/mk_color_filter.egg-info to /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter-0.0.0-py3.12.egg-info
+[1.262s] running install_scripts
+[1.350s] Installing color_filter_node script to /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/lib/mk_color_filter
+[1.351s] Installing measurement_data script to /ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/lib/mk_color_filter
+[1.352s] writing list of installed files to '/ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/install.log'
+[1.378s] Invoked command in '/ros_ws/src/student_src/mk_color_filter' returned '0': PYTHONPATH=/ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/mk_color_filter/install/mk_color_filter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/mk_color_filter build --build-base /ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/build install --record /ros_ws/src/student_src/mk_color_filter/build/mk_color_filter/install.log --single-version-externally-managed install_data

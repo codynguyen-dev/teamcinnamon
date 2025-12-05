@@ -1,0 +1,40 @@
+running egg_info
+creating ../build/mk_color_filter/mk_color_filter.egg-info
+writing ../build/mk_color_filter/mk_color_filter.egg-info/PKG-INFO
+writing dependency_links to ../build/mk_color_filter/mk_color_filter.egg-info/dependency_links.txt
+writing entry points to ../build/mk_color_filter/mk_color_filter.egg-info/entry_points.txt
+writing requirements to ../build/mk_color_filter/mk_color_filter.egg-info/requires.txt
+writing top-level names to ../build/mk_color_filter/mk_color_filter.egg-info/top_level.txt
+writing manifest file '../build/mk_color_filter/mk_color_filter.egg-info/SOURCES.txt'
+reading manifest file '../build/mk_color_filter/mk_color_filter.egg-info/SOURCES.txt'
+writing manifest file '../build/mk_color_filter/mk_color_filter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ros_ws/src/student_src/build/mk_color_filter/build
+creating /ros_ws/src/student_src/build/mk_color_filter/build/lib
+creating /ros_ws/src/student_src/build/mk_color_filter/build/lib/mk_color_filter
+copying mk_color_filter/mk_color_filter.py -> /ros_ws/src/student_src/build/mk_color_filter/build/lib/mk_color_filter
+copying mk_color_filter/__init__.py -> /ros_ws/src/student_src/build/mk_color_filter/build/lib/mk_color_filter
+copying mk_color_filter/measurement_data.py -> /ros_ws/src/student_src/build/mk_color_filter/build/lib/mk_color_filter
+running install
+running install_lib
+creating /ros_ws/src/student_src/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter
+copying /ros_ws/src/student_src/build/mk_color_filter/build/lib/mk_color_filter/mk_color_filter.py -> /ros_ws/src/student_src/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter
+copying /ros_ws/src/student_src/build/mk_color_filter/build/lib/mk_color_filter/__init__.py -> /ros_ws/src/student_src/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter
+copying /ros_ws/src/student_src/build/mk_color_filter/build/lib/mk_color_filter/measurement_data.py -> /ros_ws/src/student_src/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter
+byte-compiling /ros_ws/src/student_src/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter/mk_color_filter.py to mk_color_filter.cpython-312.pyc
+byte-compiling /ros_ws/src/student_src/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter/__init__.py to __init__.cpython-312.pyc
+byte-compiling /ros_ws/src/student_src/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter/measurement_data.py to measurement_data.cpython-312.pyc
+running install_data
+creating /ros_ws/src/student_src/install/mk_color_filter/share/ament_index
+creating /ros_ws/src/student_src/install/mk_color_filter/share/ament_index/resource_index
+creating /ros_ws/src/student_src/install/mk_color_filter/share/ament_index/resource_index/packages
+copying resource/mk_color_filter -> /ros_ws/src/student_src/install/mk_color_filter/share/ament_index/resource_index/packages
+copying package.xml -> /ros_ws/src/student_src/install/mk_color_filter/share/mk_color_filter
+copying launch/mk_color_filter_launch.py -> /ros_ws/src/student_src/install/mk_color_filter/share/mk_color_filter
+running install_egg_info
+Copying ../build/mk_color_filter/mk_color_filter.egg-info to /ros_ws/src/student_src/install/mk_color_filter/lib/python3.12/site-packages/mk_color_filter-0.0.0-py3.12.egg-info
+running install_scripts
+Installing color_filter_node script to /ros_ws/src/student_src/install/mk_color_filter/lib/mk_color_filter
+Installing measurement_data script to /ros_ws/src/student_src/install/mk_color_filter/lib/mk_color_filter
+writing list of installed files to '/ros_ws/src/student_src/build/mk_color_filter/install.log'

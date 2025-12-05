@@ -1,0 +1,222 @@
+[0.107s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.108s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ffffe1b6300>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ffffe30e9f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ffffe30e9f0>>, mixin_verb=('build',))
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.143s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/ros_ws/src/student_src'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mk_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mk_odometry) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mk_odometry) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(mk_odometry) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mk_odometry) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mk_odometry) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mk_odometry) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mk_odometry) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(mk_odometry) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'mk_odometry' with type 'ros.ament_python' and name 'mk_odometry'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pid_control) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pid_control) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pid_control) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pid_control) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pid_control) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pid_control) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pid_control) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pid_control) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pid_control) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'mk_pid_control' with type 'ros.ament_python' and name 'mk_pid_control'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pkg) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pkg) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pkg) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pkg) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pkg) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pkg) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pkg) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mk_pkg) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'mk_pkg' with type 'ros.ament_python' and name 'mk_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'mk_odometry' build argument 'cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'mk_odometry' build argument 'cmake_target' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.198s] DEBUG:colcon.colcon_core.verb:Building package 'mk_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros_ws/src/student_src/build/mk_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros_ws/src/student_src/install/mk_odometry', 'merge_install': False, 'path': '/ros_ws/src/student_src/mk_odometry', 'symlink_install': True, 'test_result_base': None}
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_pid_control' build argument 'cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_pid_control' build argument 'cmake_target' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_pid_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_pid_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_pid_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_pid_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_pid_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_pid_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'mk_pid_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.198s] DEBUG:colcon.colcon_core.verb:Building package 'mk_pid_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros_ws/src/student_src/build/mk_pid_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros_ws/src/student_src/install/mk_pid_control', 'merge_install': False, 'path': '/ros_ws/src/student_src/mk_pid_control', 'symlink_install': True, 'test_result_base': None}
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mk_pkg' build argument 'cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mk_pkg' build argument 'cmake_target' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mk_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mk_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mk_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mk_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mk_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mk_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mk_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.199s] DEBUG:colcon.colcon_core.verb:Building package 'mk_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros_ws/src/student_src/build/mk_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros_ws/src/student_src/install/mk_pkg', 'merge_install': False, 'path': '/ros_ws/src/student_src/mk_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.199s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.202s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.203s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ros_ws/src/student_src/mk_odometry' with build type 'ament_python'
+[0.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('mk_odometry', 'ament_prefix_path')
+[0.206s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/install/mk_odometry/share/mk_odometry/hook/ament_prefix_path.ps1'
+[0.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/src/student_src/install/mk_odometry/share/mk_odometry/hook/ament_prefix_path.dsv'
+[0.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/install/mk_odometry/share/mk_odometry/hook/ament_prefix_path.sh'
+[0.209s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.217s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ros_ws/src/student_src/mk_pid_control' with build type 'ament_python'
+[0.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('mk_pid_control', 'ament_prefix_path')
+[0.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/hook/ament_prefix_path.ps1'
+[0.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/hook/ament_prefix_path.dsv'
+[0.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/hook/ament_prefix_path.sh'
+[0.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.231s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ros_ws/src/student_src/mk_pkg' with build type 'ament_python'
+[0.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('mk_pkg', 'ament_prefix_path')
+[0.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/install/mk_pkg/share/mk_pkg/hook/ament_prefix_path.ps1'
+[0.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/src/student_src/install/mk_pkg/share/mk_pkg/hook/ament_prefix_path.dsv'
+[0.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/install/mk_pkg/share/mk_pkg/hook/ament_prefix_path.sh'
+[0.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.514s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ros_ws/src/student_src/mk_odometry'
+[0.515s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.515s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.768s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ros_ws/src/student_src/mk_pid_control'
+[0.769s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.769s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.030s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ros_ws/src/student_src/mk_pkg'
+[1.030s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.030s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros_ws/src/student_src/build/mk_odometry': PYTHONPATH=/ros_ws/src/student_src/build/mk_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/src/student_src/build/mk_odometry/build --no-deps symlink_data
+[1.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros_ws/src/student_src/build/mk_pid_control': PYTHONPATH=/ros_ws/src/student_src/build/mk_pid_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/src/student_src/build/mk_pid_control/build --no-deps symlink_data
+[1.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros_ws/src/student_src/build/mk_pkg': PYTHONPATH=/ros_ws/src/student_src/build/mk_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/src/student_src/build/mk_pkg/build --no-deps symlink_data
+[2.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('mk_odometry', 'pythonpath_develop')
+[2.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/build/mk_odometry/share/mk_odometry/hook/pythonpath_develop.ps1'
+[2.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/src/student_src/build/mk_odometry/share/mk_odometry/hook/pythonpath_develop.dsv'
+[2.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros_ws/src/student_src/build/mk_odometry' returned '0': PYTHONPATH=/ros_ws/src/student_src/build/mk_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/src/student_src/build/mk_odometry/build --no-deps symlink_data
+[2.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/build/mk_odometry/share/mk_odometry/hook/pythonpath_develop.sh'
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_odometry' for CMake module files
+[2.204s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_odometry' for CMake config files
+[2.209s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_odometry/lib'
+[2.210s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_odometry/bin'
+[2.210s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_odometry/lib/pkgconfig/mk_odometry.pc'
+[2.210s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_odometry/lib/python3.12/site-packages'
+[2.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('mk_odometry', 'pythonpath')
+[2.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/install/mk_odometry/share/mk_odometry/hook/pythonpath.ps1'
+[2.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/src/student_src/install/mk_odometry/share/mk_odometry/hook/pythonpath.dsv'
+[2.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/install/mk_odometry/share/mk_odometry/hook/pythonpath.sh'
+[2.213s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_odometry/bin'
+[2.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mk_odometry)
+[2.213s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/src/student_src/install/mk_odometry/share/mk_odometry/package.ps1'
+[2.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros_ws/src/student_src/install/mk_odometry/share/mk_odometry/package.dsv'
+[2.215s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/src/student_src/install/mk_odometry/share/mk_odometry/package.sh'
+[2.216s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/src/student_src/install/mk_odometry/share/mk_odometry/package.bash'
+[2.217s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/src/student_src/install/mk_odometry/share/mk_odometry/package.zsh'
+[2.218s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros_ws/src/student_src/install/mk_odometry/share/colcon-core/packages/mk_odometry)
+[2.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('mk_pid_control', 'pythonpath_develop')
+[2.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/build/mk_pid_control/share/mk_pid_control/hook/pythonpath_develop.ps1'
+[2.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros_ws/src/student_src/build/mk_pid_control' returned '0': PYTHONPATH=/ros_ws/src/student_src/build/mk_pid_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/src/student_src/build/mk_pid_control/build --no-deps symlink_data
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/src/student_src/build/mk_pid_control/share/mk_pid_control/hook/pythonpath_develop.dsv'
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/build/mk_pid_control/share/mk_pid_control/hook/pythonpath_develop.sh'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_pid_control' for CMake module files
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_pid_control' for CMake config files
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_pid_control/lib'
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_pid_control/bin'
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_pid_control/lib/pkgconfig/mk_pid_control.pc'
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages'
+[2.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('mk_pid_control', 'pythonpath')
+[2.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/hook/pythonpath.ps1'
+[2.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/hook/pythonpath.dsv'
+[2.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/hook/pythonpath.sh'
+[2.231s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_pid_control/bin'
+[2.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mk_pid_control)
+[2.232s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/package.ps1'
+[2.233s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/package.dsv'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/package.sh'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/package.bash'
+[2.235s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/package.zsh'
+[2.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros_ws/src/student_src/install/mk_pid_control/share/colcon-core/packages/mk_pid_control)
+[2.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('mk_pkg', 'pythonpath_develop')
+[2.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/build/mk_pkg/share/mk_pkg/hook/pythonpath_develop.ps1'
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/src/student_src/build/mk_pkg/share/mk_pkg/hook/pythonpath_develop.dsv'
+[2.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros_ws/src/student_src/build/mk_pkg' returned '0': PYTHONPATH=/ros_ws/src/student_src/build/mk_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/src/student_src/build/mk_pkg/build --no-deps symlink_data
+[2.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/build/mk_pkg/share/mk_pkg/hook/pythonpath_develop.sh'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_pkg' for CMake module files
+[2.240s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_pkg' for CMake config files
+[2.242s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_pkg/lib'
+[2.242s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_pkg/bin'
+[2.242s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_pkg/lib/pkgconfig/mk_pkg.pc'
+[2.243s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_pkg/lib/python3.12/site-packages'
+[2.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('mk_pkg', 'pythonpath')
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/install/mk_pkg/share/mk_pkg/hook/pythonpath.ps1'
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/src/student_src/install/mk_pkg/share/mk_pkg/hook/pythonpath.dsv'
+[2.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/src/student_src/install/mk_pkg/share/mk_pkg/hook/pythonpath.sh'
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/src/student_src/install/mk_pkg/bin'
+[2.245s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mk_pkg)
+[2.245s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/src/student_src/install/mk_pkg/share/mk_pkg/package.ps1'
+[2.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros_ws/src/student_src/install/mk_pkg/share/mk_pkg/package.dsv'
+[2.246s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/src/student_src/install/mk_pkg/share/mk_pkg/package.sh'
+[2.246s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/src/student_src/install/mk_pkg/share/mk_pkg/package.bash'
+[2.247s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/src/student_src/install/mk_pkg/share/mk_pkg/package.zsh'
+[2.247s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros_ws/src/student_src/install/mk_pkg/share/colcon-core/packages/mk_pkg)
+[2.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.248s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.248s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.254s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.254s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.254s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.254s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.259s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[2.259s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.259s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros_ws/src/student_src/install/local_setup.ps1'
+[2.260s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ros_ws/src/student_src/install/_local_setup_util_ps1.py'
+[2.262s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros_ws/src/student_src/install/setup.ps1'
+[2.263s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros_ws/src/student_src/install/local_setup.sh'
+[2.264s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ros_ws/src/student_src/install/_local_setup_util_sh.py'
+[2.264s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros_ws/src/student_src/install/setup.sh'
+[2.265s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros_ws/src/student_src/install/local_setup.bash'
+[2.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros_ws/src/student_src/install/setup.bash'
+[2.266s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros_ws/src/student_src/install/local_setup.zsh'
+[2.267s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros_ws/src/student_src/install/setup.zsh'

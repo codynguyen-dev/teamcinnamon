@@ -1,0 +1,33 @@
+running develop
+Removing /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk-pid-control.egg-link (link to .)
+running egg_info
+writing ../build/mk_pid_control/mk_pid_control.egg-info/PKG-INFO
+writing dependency_links to ../build/mk_pid_control/mk_pid_control.egg-info/dependency_links.txt
+writing entry points to ../build/mk_pid_control/mk_pid_control.egg-info/entry_points.txt
+writing requirements to ../build/mk_pid_control/mk_pid_control.egg-info/requires.txt
+writing top-level names to ../build/mk_pid_control/mk_pid_control.egg-info/top_level.txt
+reading manifest file '../build/mk_pid_control/mk_pid_control.egg-info/SOURCES.txt'
+writing manifest file '../build/mk_pid_control/mk_pid_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ros_ws/src/student_src/build/mk_pid_control/build
+creating /ros_ws/src/student_src/build/mk_pid_control/build/lib
+creating /ros_ws/src/student_src/build/mk_pid_control/build/lib/mk_pid_control
+copying mk_pid_control/mk_pid.py -> /ros_ws/src/student_src/build/mk_pid_control/build/lib/mk_pid_control
+copying mk_pid_control/__init__.py -> /ros_ws/src/student_src/build/mk_pid_control/build/lib/mk_pid_control
+running install
+running install_lib
+creating /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk_pid_control
+copying /ros_ws/src/student_src/build/mk_pid_control/build/lib/mk_pid_control/mk_pid.py -> /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk_pid_control
+copying /ros_ws/src/student_src/build/mk_pid_control/build/lib/mk_pid_control/__init__.py -> /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk_pid_control
+byte-compiling /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk_pid_control/mk_pid.py to mk_pid.cpython-312.pyc
+byte-compiling /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk_pid_control/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/mk_pid_control -> /ros_ws/src/student_src/install/mk_pid_control/share/ament_index/resource_index/packages
+copying package.xml -> /ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control
+copying launch/mk_pid_control_launch.py -> /ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/launch
+running install_egg_info
+Copying ../build/mk_pid_control/mk_pid_control.egg-info to /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk_pid_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing pid_control script to /ros_ws/src/student_src/install/mk_pid_control/lib/mk_pid_control
+writing list of installed files to '/ros_ws/src/student_src/build/mk_pid_control/install.log'

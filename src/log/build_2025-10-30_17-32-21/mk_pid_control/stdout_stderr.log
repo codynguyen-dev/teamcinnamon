@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating mk_pid_control.egg-info
+writing mk_pid_control.egg-info/PKG-INFO
+writing dependency_links to mk_pid_control.egg-info/dependency_links.txt
+writing entry points to mk_pid_control.egg-info/entry_points.txt
+writing requirements to mk_pid_control.egg-info/requires.txt
+writing top-level names to mk_pid_control.egg-info/top_level.txt
+writing manifest file 'mk_pid_control.egg-info/SOURCES.txt'
+reading manifest file 'mk_pid_control.egg-info/SOURCES.txt'
+writing manifest file 'mk_pid_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk-pid-control.egg-link (link to .)
+Installing pid_control script to /ros_ws/src/student_src/install/mk_pid_control/lib/mk_pid_control
+
+Installed /ros_ws/src/student_src/build/mk_pid_control
+running symlink_data
+creating /ros_ws/src/student_src/install/mk_pid_control/share/ament_index
+creating /ros_ws/src/student_src/install/mk_pid_control/share/ament_index/resource_index
+creating /ros_ws/src/student_src/install/mk_pid_control/share/ament_index/resource_index/packages
+symbolically linking /ros_ws/src/student_src/build/mk_pid_control/resource/mk_pid_control -> /ros_ws/src/student_src/install/mk_pid_control/share/ament_index/resource_index/packages
+symbolically linking /ros_ws/src/student_src/build/mk_pid_control/package.xml -> /ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control
+creating /ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/launch
+symbolically linking /ros_ws/src/student_src/build/mk_pid_control/launch/mk_pid_control_launch.py -> /ros_ws/src/student_src/install/mk_pid_control/share/mk_pid_control/launch

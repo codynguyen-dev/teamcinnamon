@@ -1,0 +1,7 @@
+[console_scripts]
+distance = mk_pkg.distance:main
+lab1_4 = mk_pkg.lab_14:main
+mk_estop_reset = mk_pkg.mk_estop_reset:main
+mk_fsm_mode = mk_pkg.mk_fsm_mode:main
+mk_mode_select = mk_pkg.mk_mode_select:main
+moveturtle = mk_pkg.moveturtle:main

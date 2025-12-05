@@ -1,0 +1,20 @@
+[1.689s] Invoking command in '/ros_ws/src/student_src/build/mk_odometry': PYTHONPATH=/ros_ws/src/student_src/build/mk_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/src/student_src/build/mk_odometry/build --no-deps symlink_data --force
+[2.054s] running develop
+[2.171s] running egg_info
+[2.183s] writing mk_odometry.egg-info/PKG-INFO
+[2.184s] writing dependency_links to mk_odometry.egg-info/dependency_links.txt
+[2.185s] writing entry points to mk_odometry.egg-info/entry_points.txt
+[2.186s] writing requirements to mk_odometry.egg-info/requires.txt
+[2.186s] writing top-level names to mk_odometry.egg-info/top_level.txt
+[2.213s] reading manifest file 'mk_odometry.egg-info/SOURCES.txt'
+[2.219s] writing manifest file 'mk_odometry.egg-info/SOURCES.txt'
+[2.231s] running build_ext
+[2.232s] Creating /ros_ws/src/student_src/install/mk_odometry/lib/python3.12/site-packages/mk-odometry.egg-link (link to .)
+[2.233s] Installing mk_odom script to /ros_ws/src/student_src/install/mk_odometry/lib/mk_odometry
+[2.235s] 
+[2.235s] Installed /ros_ws/src/student_src/build/mk_odometry
+[2.236s] running symlink_data
+[2.237s] symbolically linking /ros_ws/src/student_src/build/mk_odometry/resource/mk_odometry -> /ros_ws/src/student_src/install/mk_odometry/share/ament_index/resource_index/packages
+[2.237s] symbolically linking /ros_ws/src/student_src/build/mk_odometry/package.xml -> /ros_ws/src/student_src/install/mk_odometry/share/mk_odometry
+[2.238s] symbolically linking /ros_ws/src/student_src/build/mk_odometry/launch/odom_launch.py -> /ros_ws/src/student_src/install/mk_odometry/share/mk_odometry
+[2.266s] Invoked command in '/ros_ws/src/student_src/build/mk_odometry' returned '0': PYTHONPATH=/ros_ws/src/student_src/build/mk_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/src/student_src/build/mk_odometry/build --no-deps symlink_data --force

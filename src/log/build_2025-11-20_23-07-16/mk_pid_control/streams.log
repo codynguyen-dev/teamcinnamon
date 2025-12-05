@@ -1,0 +1,17 @@
+[1.664s] Invoking command in '/ros_ws/src/student_src/build/mk_pid_control': PYTHONPATH=/ros_ws/src/student_src/build/mk_pid_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/src/student_src/build/mk_pid_control/build --no-deps symlink_data
+[2.032s] running develop
+[2.162s] running egg_info
+[2.180s] writing mk_pid_control.egg-info/PKG-INFO
+[2.195s] writing dependency_links to mk_pid_control.egg-info/dependency_links.txt
+[2.197s] writing entry points to mk_pid_control.egg-info/entry_points.txt
+[2.201s] writing requirements to mk_pid_control.egg-info/requires.txt
+[2.202s] writing top-level names to mk_pid_control.egg-info/top_level.txt
+[2.222s] reading manifest file 'mk_pid_control.egg-info/SOURCES.txt'
+[2.226s] writing manifest file 'mk_pid_control.egg-info/SOURCES.txt'
+[2.244s] running build_ext
+[2.244s] Creating /ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages/mk-pid-control.egg-link (link to .)
+[2.247s] Installing pid_control script to /ros_ws/src/student_src/install/mk_pid_control/lib/mk_pid_control
+[2.251s] 
+[2.254s] Installed /ros_ws/src/student_src/build/mk_pid_control
+[2.257s] running symlink_data
+[2.321s] Invoked command in '/ros_ws/src/student_src/build/mk_pid_control' returned '0': PYTHONPATH=/ros_ws/src/student_src/build/mk_pid_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/src/student_src/install/mk_pid_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/src/student_src/build/mk_pid_control/build --no-deps symlink_data
