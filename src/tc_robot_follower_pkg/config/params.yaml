@@ -1,0 +1,28 @@
+/**:
+  ros__parameters:
+    # Image Processing - tune these to find object
+    hsv_low_h: 100
+    hsv_low_s: 50
+    hsv_low_v: 50
+    hsv_high_h: 130
+    hsv_high_s: 255
+    hsv_high_v: 255
+    
+    erode_iterations: 2
+    dilate_iterations: 2
+    min_contour_area: 100.0
+    
+    # Angular PID (turning to face object)
+    angular_kp: 0.005
+    angular_ki: 0.0
+    angular_kd: 0.001
+    angular_max_output: 1.0
+    angular_deadband: 10.0
+    
+    # Linear PID (moving forward/back to maintain distance)
+    linear_kp: 0.0001
+    linear_ki: 0.0
+    linear_kd: 0.0
+    linear_max_output: 0.3
+    linear_deadband: 500.0
+    target_object_area: 8000.0
